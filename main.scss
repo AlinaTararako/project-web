@@ -1,0 +1,14 @@
+@import 'src/style/normalize.scss';
+@import 'src/components/color.scss';
+@import 'src/components/global';
+@import 'src/components/header';
+@import 'src/components/footer';
+
+
+body{
+   background-color: $bg;
+}
+
+
+
+

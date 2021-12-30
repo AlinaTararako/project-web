@@ -1,0 +1,70 @@
+.header{
+   &__inner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+   }
+   &__btn-autorization{
+      margin-right: 130px;
+      margin-left: 30px;
+      top: 9px;
+      width: 85px;
+      height: 42px;
+      border: $white 1px solid;
+      font-family: Open Sans;
+      font-style: Regular;
+      font-size: 18px;
+      padding: 0;
+      color: inherit;
+      background-color: transparent;
+      cursor: pointer;
+   }
+   &__btn-registration{
+      width: 160px;
+      height: 42px;
+      border: $white 1px solid;
+      font-family: Open Sans;
+      font-style: Regular;
+      font-size: 18px;
+      padding: 0;
+      color: inherit;
+      background-color: transparent;
+      cursor: pointer;
+   }
+   &__btn-text{
+      color:$white;
+   }
+   &__line{
+      position: absolute;
+      width: 1920px;
+      height: 0px;
+      left: 0px;
+      margin-top: 0px;
+
+      border: $white 1px solid;
+   }
+}
+
+.menu{
+   padding-right: 50px;
+   &__list{
+      display: flex;
+      list-style-type: none;
+   }
+   &__list-item + .menu__list-item{
+      padding-left: 50px;
+   }
+   &__list-link{
+      color:$white;
+      font-family: Open Sans;
+      font-style: Regular;
+      font-size: 18px;
+      text-decoration: none;
+      
+   }
+}
+
+.logo{
+   margin: 0 auto;
+}

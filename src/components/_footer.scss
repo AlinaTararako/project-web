@@ -1,0 +1,26 @@
+
+.footer{
+   &__inner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px; 
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      ///padding-bottom: 70px;
+      background-color: $green-footer;
+   }
+   &__copyright{
+      text-decoration: underline;
+      margin: 0 auto;
+   }
+   &__logo{
+      margin-left: 50px;
+   }
+}
+
+.icon{
+    display: flex;
+    list-style-type: none;
+}
